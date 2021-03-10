@@ -10,6 +10,10 @@ A class named INGARCH is created with the following key functions:
 ## 📃 Model Details
 An integer-valued analogue of the generalized autoregressive conditional heteroskedastic (GARCH) (p,q) model with Poisson deviates is used in this paper. An Integer-Valued GARCH, INGARCH(p,q), Process is defined as the following:
 
-![image](https://user-images.githubusercontent.com/24922489/110701260-92b07180-81b6-11eb-85b6-32390a9bc7e8.png)
+![image](https://user-images.githubusercontent.com/24922489/110701676-19654e80-81b7-11eb-935c-ff8f8c92c53a.png)
 
-![image](https://user-images.githubusercontent.com/24922489/110701305-9fcd6080-81b6-11eb-97b5-734a67d5c5fb.png)
+
+INGARCH model parameters are estimated using Maximum Log-Likelihood approach and constrained numerical optimization is used to obtain parameter estimates. The log-likelihood is calculated with the follow function:
+
+![image](https://user-images.githubusercontent.com/24922489/110701619-03f02480-81b7-11eb-8bd2-f62d56a3ecbb.png)
+
